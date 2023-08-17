@@ -4,7 +4,7 @@ Exercícios
 Observe como cada tipo de variável reage à reatribuição e como isso reflete nas saídas do programa.
 
 02 - Escreva um código em JavaScript que permita inserir uma saudação personalizada e selecionar uma disciplina. Você deve usar campos de entrada de texto e um menu suspenso (select) para obter tais dados. O usuário deve inserir a saudação e escolher uma disciplina. 
- Utilize uma entrada de texto (<input type="text">).
+ Utilize uma entrada de texto input type="text".
  Utilize um menu suspenso (<select>) com  quatro opções de disciplinas: Banco de Dados, Front-End e Back-End, Desenvolvimento de Interfaces.
  Adicione um botão na tela com o texto "Mostrar Resultado".
  Adicione um evento de clique ao botão para capturar os valores inseridos e selecionados. Após o clique do botão, exiba a saudação e a disciplina escolhida na tela por meio do uso da propriedade innerText de um elemento HTML, como um parágrafo (tag p).
