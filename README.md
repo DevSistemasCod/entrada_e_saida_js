@@ -14,3 +14,5 @@ Observe como cada tipo de variável reage à reatribuição e como isso reflete 
 
 04 - Escreva um programa similar ao anterior com um campo de entrada de texto em um formulário HTML. No entanto, ao invés de exibir a saída no console, o programa deve exibir o conteúdo digitado pelo usuário e o tipo da variável em um elemento HTML, como um parágrafo (tag p), usando a propriedade innerText.
 
+ Mude a propriedade type do input para number e verifique se terá alguma alteração na saída.
+
