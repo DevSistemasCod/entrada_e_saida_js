@@ -15,7 +15,7 @@ function mostrarResultado(event) {
     let saida = document.getElementById("resultado");
 
     // Define o conteúdo do parágrafo com o resultado.
-    saida.innerText = "Conteúdo digitado: " + valorDigitado  "Tipo da variável: "  +tipoVariavel;
+    saida.innerText = " Conteúdo digitado: " + valorDigitado + " \n Tipo da variável: "  +tipoVariavel;
 }
 
 /**
