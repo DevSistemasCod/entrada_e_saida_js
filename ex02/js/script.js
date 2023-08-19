@@ -16,7 +16,7 @@ function mostrarResultado() {
     let saida = document.getElementById("resultado");
 
     // Define o texto de saída com a saudação e a disciplina escolhida
-    saida.innerText = `Saudação: ${saudacaoInput}, Disciplina: ${disciplinaEscolhida}`;
+    saida.innerText = "Saudação: " + saudacaoInput + "Disciplina: " + disciplinaEscolhida;
 
     // Retorna o elemento de saída (pode ser útil para manipulações futuras)
     return saida;
