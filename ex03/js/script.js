@@ -9,8 +9,8 @@ function mostrarResultado(event) {
     let tipoVariavel = typeof valorDigitado;
 
     // Exibe o conteúdo digitado e o tipo da variável no console
-    console.log(`Conteúdo digitado: ${valorDigitado}`);
-    console.log(`Tipo da variável: ${tipoVariavel}`);
+    console.log("Conteúdo digitado: " +valorDigitado);
+    console.log("Tipo da variável: " +tipoVariavel);
 
     // Atualiza o conteúdo de <p> informando que o console deve ser verificado
     document.getElementById("resultado").innerText = "Verifique o console!";
