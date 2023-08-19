@@ -12,10 +12,10 @@ function mostrarResultado(event) {
     let tipoVariavel = typeof valorDigitado;
 
     // Obtém o elemento HTML onde o resultado será exibido.
-    let resultadoParagrafo = document.getElementById("resultado");
+    let saida = document.getElementById("resultado");
 
     // Define o conteúdo do parágrafo com o resultado.
-    resultadoParagrafo.innerText = `Conteúdo digitado: ${valorDigitado}, Tipo da variável: ${tipoVariavel}`;
+    saida.innerText = "Conteúdo digitado: " + valorDigitado  "Tipo da variável: "  +tipoVariavel;
 }
 
 /**
