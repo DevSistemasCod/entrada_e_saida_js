@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/script_v2.js" defer></script>
+    <title>Calculadora de Desconto</title>
+  </head>
+  <body>
+    <h1>Calculadora de Desconto</h1>
+    
+    <label for="produto">Escolha um produto:</label>
+    <select id="produto">
+      <option value="100">Produto 1 - R$100</option>
+      <option value="150">Produto 2 - R$150</option>
+      <option value="200">Produto 3 - R$200</option>
+    </select>
+
+    <label for="desconto">Selecione o desconto:</label>
+    <select id="desconto">
+      <option value="10">10%</option>
+      <option value="15">15%</option>
+      <option value="25">25%</option>
+    </select>
+
+    <button onclick="calcularDesconto()">Calcular Desconto</button>
+
+    <p id="resultado"></p>
+  </body>
+</html>
