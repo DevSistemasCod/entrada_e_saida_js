@@ -4,7 +4,7 @@ Exercícios
 
 2. Faça um programa capaz de calcular a área do trapézio.
 Lembrando: 
-Área do trapézio = ((Base Maior + Base Menor) * Altura) / 2
+A = ((Base Maior + Base Menor) * Altura) / 2
 
 3. Faça um programa que receba a temperatura em Celsius via prompt?
  -  Exiba a temperatura em Fahrenheit na tela
